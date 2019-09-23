@@ -39,49 +39,51 @@
       data.addColumn('string', 'Dependencies');
 
       data.addRows([
-        ['ICS-201684', 'SAFe Project V.5.6.8', 'Releases',
+        ['ICS-201684', 'SAFe Project V.5.6.8', 'Async',
          new Date(2020, 10, 1), new Date(2020, 12, 6), null, 100, null],
 
-        ['ICS-201685', 'SAFe Project V.5.6.9', 'Releases',
+        ['ICS-201685', 'SAFe Project V.5.6.9', 'Async',
          new Date(2021, 10, 1), new Date(2021, 12, 6), null, 100, null],
 
-        ['ICS-201689', 'SAFe Project V.5.6.7', 'Releases',
+
+        ['ICS-201689', 'SAFe Project V.5.6.7', 'Async',
          new Date(2019, 10, 1), new Date(2019, 12, 6), null, 100, null],
 
-        ['ICS-201812', 'QuizMaster 1.1', 'Releases',
+
+        ['ICS-201812', 'QuizMaster 1.1', 'Major',
          new Date(2019, 8, 23), new Date(2019, 8, 14), null, 100, null],
 
-        ['ICS-201814', 'QuizMaster 1.2', 'Releases',
+        ['ICS-201814', 'QuizMaster 1.2', 'Major',
          new Date(2020, 8, 23), new Date(2020, 8, 14), null, 50, null],
 
-        ['ICS-201815', 'QuizMaster That Works in English, Telugu, Hindi, Kannada and Other Indic Languages V 2020', 'Releases',
+        ['ICS-201815', 'QuizMaster That Works in English, Telugu, Hindi, Kannada and Other Indic Languages V 2020', 'Major',
          new Date(2021, 8, 23), new Date(2021, 8, 14), null, 0, null],
 
-        ['ICS-201944', 'Bingo 2.4', 'Releases',
+        ['ICS-201944', 'Bingo 2.4', 'Minor',
          new Date(2020, 10, 18), new Date(2020, 9, 5), null, 0, null],
 
-        ['ICS-201945', 'Bingo 2.3', 'Releases',
+        ['ICS-201945', 'Bingo 2.3', 'Minor',
          new Date(2019, 10, 18), new Date(2019, 9, 5), null, 0, null],
 
-        ['ICS-201955', 'Bingo 2.5', 'Releases',
+        ['ICS-201955', 'Bingo 2.5', 'Minor',
          new Date(2021, 10, 18), new Date(2021, 9, 5), null, 100, null],
 
-        ['ICS-789084', 'Registration System V.2020', 'Releases',
+        ['ICS-789084', 'Registration System V.2020', 'Async',
          new Date(2020, 10, 1), new Date(2020, 12, 6), null, 14, null],
 
-        ['ICS-789085', 'Registration System V.2020.1', 'Releases',
+        ['ICS-789085', 'Registration System V.2020.1', 'Async',
          new Date(2019, 10, 1), new Date(2021, 12, 6), null, 86, null],
 
-        ['ICS-789089', 'Registration System V.2019', 'Releases',
+        ['ICS-789089', 'Registration System V.2019', 'Async',
          new Date(2021, 10, 1), new Date(2019, 12, 6), null, 0, null],
 
-        ['ICS-898984', 'Word Explorer 2021', 'Releases',
+        ['ICS-898984', 'Word Explorer 2021', 'Patch',
          new Date(2020, 10, 1), new Date(2020, 12, 6), null, 0, null],
 
-        ['ICS-898985', 'Word Explorer 2022', 'Releases',
+        ['ICS-898985', 'Word Explorer 2022', 'Patch',
          new Date(2019, 10, 1), new Date(2021, 12, 6), null, 100, null],
 
-        ['ICS-898989', 'Word Explorer 2020', 'Releases',
+        ['ICS-898989', 'Word Explorer 2020', 'Patch',
          new Date(2021, 10, 1), new Date(2019, 12, 6), null, 89, null]
       ]);
 
@@ -97,6 +99,9 @@
       chart.draw(data, options);
     }
   </script>
+
+
+
 
 
 </head>
